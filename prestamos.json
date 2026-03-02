@@ -1,0 +1,602 @@
+[
+  {
+    "id_cliente": 1,
+    "capital_pendiente": 7238.8,
+    "interes_anual": 5.88,
+    "cuota_mensual": 51.36
+  },
+  {
+    "id_cliente": 2,
+    "capital_pendiente": 137933.52,
+    "interes_anual": 5.15,
+    "cuota_mensual": 921.77
+  },
+  {
+    "id_cliente": 3,
+    "capital_pendiente": 57030.91,
+    "interes_anual": 5.56,
+    "cuota_mensual": 394.24
+  },
+  {
+    "id_cliente": 4,
+    "capital_pendiente": 26752.67,
+    "interes_anual": 4.74,
+    "cuota_mensual": 172.74
+  },
+  {
+    "id_cliente": 5,
+    "capital_pendiente": 93476.12,
+    "interes_anual": 6.82,
+    "cuota_mensual": 714.65
+  },
+  {
+    "id_cliente": 6,
+    "capital_pendiente": 175791.32,
+    "interes_anual": 4.05,
+    "cuota_mensual": 1069.9
+  },
+  {
+    "id_cliente": 7,
+    "capital_pendiente": 102614.29,
+    "interes_anual": 3.71,
+    "cuota_mensual": 606.25
+  },
+  {
+    "id_cliente": 8,
+    "capital_pendiente": 182962.43,
+    "interes_anual": 6.48,
+    "cuota_mensual": 1361.97
+  },
+  {
+    "id_cliente": 9,
+    "capital_pendiente": 63196.73,
+    "interes_anual": 5.56,
+    "cuota_mensual": 436.87
+  },
+  {
+    "id_cliente": 10,
+    "capital_pendiente": 123749.19,
+    "interes_anual": 3.61,
+    "cuota_mensual": 724.71
+  },
+  {
+    "id_cliente": 11,
+    "capital_pendiente": 153689.61,
+    "interes_anual": 5.16,
+    "cuota_mensual": 1027.92
+  },
+  {
+    "id_cliente": 12,
+    "capital_pendiente": 156832.16,
+    "interes_anual": 5.12,
+    "cuota_mensual": 1045.45
+  },
+  {
+    "id_cliente": 13,
+    "capital_pendiente": 5111.52,
+    "interes_anual": 4.3,
+    "cuota_mensual": 31.79
+  },
+  {
+    "id_cliente": 14,
+    "capital_pendiente": 8797.96,
+    "interes_anual": 6.72,
+    "cuota_mensual": 66.74
+  },
+  {
+    "id_cliente": 15,
+    "capital_pendiente": 176350.77,
+    "interes_anual": 6.33,
+    "cuota_mensual": 1297.23
+  },
+  {
+    "id_cliente": 16,
+    "capital_pendiente": 64965.25,
+    "interes_anual": 3.23,
+    "cuota_mensual": 367.82
+  },
+  {
+    "id_cliente": 17,
+    "capital_pendiente": 176211.87,
+    "interes_anual": 6.79,
+    "cuota_mensual": 1344.05
+  },
+  {
+    "id_cliente": 18,
+    "capital_pendiente": 21702.42,
+    "interes_anual": 4.94,
+    "cuota_mensual": 142.51
+  },
+  {
+    "id_cliente": 19,
+    "capital_pendiente": 18496.44,
+    "interes_anual": 6.04,
+    "cuota_mensual": 132.94
+  },
+  {
+    "id_cliente": 20,
+    "capital_pendiente": 154337.71,
+    "interes_anual": 3.51,
+    "cuota_mensual": 895.89
+  },
+  {
+    "id_cliente": 21,
+    "capital_pendiente": 97680.06,
+    "interes_anual": 5.2,
+    "cuota_mensual": 655.49
+  },
+  {
+    "id_cliente": 22,
+    "capital_pendiente": 56686.04,
+    "interes_anual": 6.49,
+    "cuota_mensual": 422.3
+  },
+  {
+    "id_cliente": 23,
+    "capital_pendiente": 87511.9,
+    "interes_anual": 3.85,
+    "cuota_mensual": 523.41
+  },
+  {
+    "id_cliente": 24,
+    "capital_pendiente": 110162.74,
+    "interes_anual": 5.92,
+    "cuota_mensual": 784.16
+  },
+  {
+    "id_cliente": 25,
+    "capital_pendiente": 44224.46,
+    "interes_anual": 4.25,
+    "cuota_mensual": 273.85
+  },
+  {
+    "id_cliente": 26,
+    "capital_pendiente": 199054.12,
+    "interes_anual": 5.6,
+    "cuota_mensual": 1380.53
+  },
+  {
+    "id_cliente": 27,
+    "capital_pendiente": 90429.52,
+    "interes_anual": 5.07,
+    "cuota_mensual": 600.3
+  },
+  {
+    "id_cliente": 28,
+    "capital_pendiente": 28595.82,
+    "interes_anual": 3.9,
+    "cuota_mensual": 171.78
+  },
+  {
+    "id_cliente": 29,
+    "capital_pendiente": 70926.68,
+    "interes_anual": 5.35,
+    "cuota_mensual": 481.91
+  },
+  {
+    "id_cliente": 30,
+    "capital_pendiente": 49872.37,
+    "interes_anual": 3.88,
+    "cuota_mensual": 299.07
+  },
+  {
+    "id_cliente": 31,
+    "capital_pendiente": 18843.65,
+    "interes_anual": 5.52,
+    "cuota_mensual": 129.84
+  },
+  {
+    "id_cliente": 32,
+    "capital_pendiente": 49643.65,
+    "interes_anual": 6.62,
+    "cuota_mensual": 373.65
+  },
+  {
+    "id_cliente": 33,
+    "capital_pendiente": 172628.9,
+    "interes_anual": 3.28,
+    "cuota_mensual": 981.77
+  },
+  {
+    "id_cliente": 34,
+    "capital_pendiente": 51410.9,
+    "interes_anual": 5.68,
+    "cuota_mensual": 358.9
+  },
+  {
+    "id_cliente": 35,
+    "capital_pendiente": 46776.18,
+    "interes_anual": 3.53,
+    "cuota_mensual": 272.0
+  },
+  {
+    "id_cliente": 36,
+    "capital_pendiente": 187425.28,
+    "interes_anual": 5.28,
+    "cuota_mensual": 1266.1
+  },
+  {
+    "id_cliente": 37,
+    "capital_pendiente": 97170.85,
+    "interes_anual": 6.14,
+    "cuota_mensual": 704.03
+  },
+  {
+    "id_cliente": 38,
+    "capital_pendiente": 162461.91,
+    "interes_anual": 3.76,
+    "cuota_mensual": 964.06
+  },
+  {
+    "id_cliente": 39,
+    "capital_pendiente": 23901.51,
+    "interes_anual": 4.72,
+    "cuota_mensual": 154.07
+  },
+  {
+    "id_cliente": 40,
+    "capital_pendiente": 87597.83,
+    "interes_anual": 4.87,
+    "cuota_mensual": 571.83
+  },
+  {
+    "id_cliente": 41,
+    "capital_pendiente": 147169.79,
+    "interes_anual": 5.69,
+    "cuota_mensual": 1028.22
+  },
+  {
+    "id_cliente": 42,
+    "capital_pendiente": 196912.22,
+    "interes_anual": 3.39,
+    "cuota_mensual": 1130.91
+  },
+  {
+    "id_cliente": 43,
+    "capital_pendiente": 83511.15,
+    "interes_anual": 4.36,
+    "cuota_mensual": 522.04
+  },
+  {
+    "id_cliente": 44,
+    "capital_pendiente": 173026.14,
+    "interes_anual": 3.99,
+    "cuota_mensual": 1047.59
+  },
+  {
+    "id_cliente": 45,
+    "capital_pendiente": 42090.74,
+    "interes_anual": 4.79,
+    "cuota_mensual": 272.92
+  },
+  {
+    "id_cliente": 46,
+    "capital_pendiente": 87266.92,
+    "interes_anual": 4.11,
+    "cuota_mensual": 533.89
+  },
+  {
+    "id_cliente": 47,
+    "capital_pendiente": 53712.26,
+    "interes_anual": 6.69,
+    "cuota_mensual": 406.49
+  },
+  {
+    "id_cliente": 48,
+    "capital_pendiente": 91410.5,
+    "interes_anual": 6.45,
+    "cuota_mensual": 678.84
+  },
+  {
+    "id_cliente": 49,
+    "capital_pendiente": 112313.44,
+    "interes_anual": 3.2,
+    "cuota_mensual": 634.19
+  },
+  {
+    "id_cliente": 50,
+    "capital_pendiente": 199860.08,
+    "interes_anual": 6.34,
+    "cuota_mensual": 1471.34
+  },
+  {
+    "id_cliente": 51,
+    "capital_pendiente": 193954.27,
+    "interes_anual": 6.71,
+    "cuota_mensual": 1470.15
+  },
+  {
+    "id_cliente": 52,
+    "capital_pendiente": 170495.67,
+    "interes_anual": 3.67,
+    "cuota_mensual": 1003.76
+  },
+  {
+    "id_cliente": 53,
+    "capital_pendiente": 99700.02,
+    "interes_anual": 3.85,
+    "cuota_mensual": 596.31
+  },
+  {
+    "id_cliente": 54,
+    "capital_pendiente": 83202.86,
+    "interes_anual": 3.23,
+    "cuota_mensual": 471.08
+  },
+  {
+    "id_cliente": 55,
+    "capital_pendiente": 78899.76,
+    "interes_anual": 6.94,
+    "cuota_mensual": 608.87
+  },
+  {
+    "id_cliente": 56,
+    "capital_pendiente": 56714.6,
+    "interes_anual": 6.14,
+    "cuota_mensual": 410.91
+  },
+  {
+    "id_cliente": 57,
+    "capital_pendiente": 93726.63,
+    "interes_anual": 4.69,
+    "cuota_mensual": 602.62
+  },
+  {
+    "id_cliente": 58,
+    "capital_pendiente": 191676.94,
+    "interes_anual": 6.98,
+    "cuota_mensual": 1483.77
+  },
+  {
+    "id_cliente": 59,
+    "capital_pendiente": 113374.82,
+    "interes_anual": 5.87,
+    "cuota_mensual": 803.77
+  },
+  {
+    "id_cliente": 60,
+    "capital_pendiente": 35185.38,
+    "interes_anual": 4.19,
+    "cuota_mensual": 216.76
+  },
+  {
+    "id_cliente": 61,
+    "capital_pendiente": 193898.33,
+    "interes_anual": 5.32,
+    "cuota_mensual": 1314.17
+  },
+  {
+    "id_cliente": 62,
+    "capital_pendiente": 110728.06,
+    "interes_anual": 5.99,
+    "cuota_mensual": 792.65
+  },
+  {
+    "id_cliente": 63,
+    "capital_pendiente": 16147.23,
+    "interes_anual": 5.34,
+    "cuota_mensual": 109.62
+  },
+  {
+    "id_cliente": 64,
+    "capital_pendiente": 103055.82,
+    "interes_anual": 6.41,
+    "cuota_mensual": 762.91
+  },
+  {
+    "id_cliente": 65,
+    "capital_pendiente": 35699.38,
+    "interes_anual": 6.84,
+    "cuota_mensual": 273.36
+  },
+  {
+    "id_cliente": 66,
+    "capital_pendiente": 20621.74,
+    "interes_anual": 3.74,
+    "cuota_mensual": 122.16
+  },
+  {
+    "id_cliente": 67,
+    "capital_pendiente": 121031.85,
+    "interes_anual": 5.7,
+    "cuota_mensual": 846.29
+  },
+  {
+    "id_cliente": 68,
+    "capital_pendiente": 50864.76,
+    "interes_anual": 3.48,
+    "cuota_mensual": 294.47
+  },
+  {
+    "id_cliente": 69,
+    "capital_pendiente": 178606.03,
+    "interes_anual": 3.98,
+    "cuota_mensual": 1080.44
+  },
+  {
+    "id_cliente": 70,
+    "capital_pendiente": 120931.23,
+    "interes_anual": 5.48,
+    "cuota_mensual": 830.51
+  },
+  {
+    "id_cliente": 71,
+    "capital_pendiente": 86748.86,
+    "interes_anual": 5.33,
+    "cuota_mensual": 588.44
+  },
+  {
+    "id_cliente": 72,
+    "capital_pendiente": 106942.63,
+    "interes_anual": 6.74,
+    "cuota_mensual": 812.52
+  },
+  {
+    "id_cliente": 73,
+    "capital_pendiente": 44830.54,
+    "interes_anual": 5.86,
+    "cuota_mensual": 317.57
+  },
+  {
+    "id_cliente": 74,
+    "capital_pendiente": 51543.76,
+    "interes_anual": 4.58,
+    "cuota_mensual": 328.32
+  },
+  {
+    "id_cliente": 75,
+    "capital_pendiente": 135979.59,
+    "interes_anual": 4.2,
+    "cuota_mensual": 838.41
+  },
+  {
+    "id_cliente": 76,
+    "capital_pendiente": 66654.55,
+    "interes_anual": 6.01,
+    "cuota_mensual": 477.92
+  },
+  {
+    "id_cliente": 77,
+    "capital_pendiente": 19145.91,
+    "interes_anual": 4.83,
+    "cuota_mensual": 124.56
+  },
+  {
+    "id_cliente": 78,
+    "capital_pendiente": 199698.62,
+    "interes_anual": 6.98,
+    "cuota_mensual": 1545.86
+  },
+  {
+    "id_cliente": 79,
+    "capital_pendiente": 19285.84,
+    "interes_anual": 3.85,
+    "cuota_mensual": 115.35
+  },
+  {
+    "id_cliente": 80,
+    "capital_pendiente": 56714.08,
+    "interes_anual": 6.73,
+    "cuota_mensual": 430.56
+  },
+  {
+    "id_cliente": 81,
+    "capital_pendiente": 176768.51,
+    "interes_anual": 6.52,
+    "cuota_mensual": 1320.02
+  },
+  {
+    "id_cliente": 82,
+    "capital_pendiente": 77057.78,
+    "interes_anual": 3.63,
+    "cuota_mensual": 452.07
+  },
+  {
+    "id_cliente": 83,
+    "capital_pendiente": 167580.27,
+    "interes_anual": 5.81,
+    "cuota_mensual": 1182.3
+  },
+  {
+    "id_cliente": 84,
+    "capital_pendiente": 124277.16,
+    "interes_anual": 6.95,
+    "cuota_mensual": 959.79
+  },
+  {
+    "id_cliente": 85,
+    "capital_pendiente": 132525.38,
+    "interes_anual": 3.03,
+    "cuota_mensual": 736.97
+  },
+  {
+    "id_cliente": 86,
+    "capital_pendiente": 164335.31,
+    "interes_anual": 4.2,
+    "cuota_mensual": 1013.24
+  },
+  {
+    "id_cliente": 87,
+    "capital_pendiente": 134360.8,
+    "interes_anual": 6.76,
+    "cuota_mensual": 1022.43
+  },
+  {
+    "id_cliente": 88,
+    "capital_pendiente": 31186.77,
+    "interes_anual": 3.46,
+    "cuota_mensual": 180.23
+  },
+  {
+    "id_cliente": 89,
+    "capital_pendiente": 25872.02,
+    "interes_anual": 5.21,
+    "cuota_mensual": 173.76
+  },
+  {
+    "id_cliente": 90,
+    "capital_pendiente": 58107.9,
+    "interes_anual": 5.42,
+    "cuota_mensual": 397.1
+  },
+  {
+    "id_cliente": 91,
+    "capital_pendiente": 144934.38,
+    "interes_anual": 3.81,
+    "cuota_mensual": 863.83
+  },
+  {
+    "id_cliente": 92,
+    "capital_pendiente": 128676.4,
+    "interes_anual": 4.06,
+    "cuota_mensual": 783.83
+  },
+  {
+    "id_cliente": 93,
+    "capital_pendiente": 100263.71,
+    "interes_anual": 6.62,
+    "cuota_mensual": 754.64
+  },
+  {
+    "id_cliente": 94,
+    "capital_pendiente": 169990.22,
+    "interes_anual": 3.37,
+    "cuota_mensual": 974.56
+  },
+  {
+    "id_cliente": 95,
+    "capital_pendiente": 87597.28,
+    "interes_anual": 4.11,
+    "cuota_mensual": 535.91
+  },
+  {
+    "id_cliente": 96,
+    "capital_pendiente": 5691.41,
+    "interes_anual": 6.08,
+    "cuota_mensual": 41.04
+  },
+  {
+    "id_cliente": 97,
+    "capital_pendiente": 129237.11,
+    "interes_anual": 4.05,
+    "cuota_mensual": 786.56
+  },
+  {
+    "id_cliente": 98,
+    "capital_pendiente": 149540.03,
+    "interes_anual": 5.21,
+    "cuota_mensual": 1004.33
+  },
+  {
+    "id_cliente": 99,
+    "capital_pendiente": 88398.95,
+    "interes_anual": 3.04,
+    "cuota_mensual": 492.03
+  },
+  {
+    "id_cliente": 100,
+    "capital_pendiente": 19672.55,
+    "interes_anual": 6.53,
+    "cuota_mensual": 147.02
+  }
+]
