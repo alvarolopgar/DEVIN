@@ -1,0 +1,32 @@
+[
+    {
+        "id_cliente": 1,
+        "capital_pendiente": 120000,
+        "interes_anual": 3.5,
+        "plazo_meses": 240
+    },
+    {
+        "id_cliente": 2,
+        "capital_pendiente": 85000,
+        "interes_anual": 4.2,
+        "plazo_meses": 180
+    },
+    {
+        "id_cliente": 3,
+        "capital_pendiente": 150000,
+        "interes_anual": 2.8,
+        "plazo_meses": 300
+    },
+    {
+        "id_cliente": 4,
+        "capital_pendiente": 95000,
+        "interes_anual": 5.0,
+        "plazo_meses": 120
+    },
+    {
+        "id_cliente": 5,
+        "capital_pendiente": 200000,
+        "interes_anual": 6.0,
+        "plazo_meses": 240
+    }
+]
