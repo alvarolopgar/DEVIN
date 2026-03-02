@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "credit-risk-engine"
+version = "1.0.0"
+description = "Enterprise-grade Credit Risk Decision Engine for banking portfolio assessment"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Credit Risk Engineering Team"},
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "pyarrow>=12.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",
+    "mypy>=1.5.0",
+    "pytest>=7.4.0",
+    "pandas-stubs>=2.0.0",
+]
+
+[project.scripts]
+credit-risk-engine = "credit_risk_engine.main:main"
+
+[tool.setuptools.packages.find]
+include = ["credit_risk_engine*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # pyflakes
+    "I",    # isort
+    "N",    # pep8-naming
+    "UP",   # pyupgrade
+    "B",    # flake8-bugbear
+    "SIM",  # flake8-simplify
+    "TCH",  # flake8-type-checking
+    "RUF",  # ruff-specific rules
+]
+ignore = [
+    "E501",    # line too long (handled by formatter)
+    "SIM108",  # ternary operator
+    "TCH",     # type-checking imports (runtime usage requires normal imports)
+    "TC001",   # type-checking imports
+    "RUF002",  # ambiguous unicode in docstrings (mathematical notation)
+    "RUF003",  # ambiguous unicode in comments (mathematical notation)
+    "RUF012",  # mutable class attributes (intentional for class-level constants)
+    "SIM102",  # collapsible if (readability preference)
+    "SIM114",  # combinable if branches (readability preference)
+    "SIM116",  # dictionary instead of if-elif (readability preference)
+    "RUF001",  # ambiguous unicode in strings (mathematical notation)
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["credit_risk_engine"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = ["pandas.*", "numpy.*", "pyarrow.*"]
+ignore_missing_imports = true
