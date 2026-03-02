@@ -125,9 +125,18 @@ class SyntheticPortfolioGenerator:
         )
 
         # Phase 3: Generate credit positions (correlated with income)
-        # We need aggregated income per client for realistic debt levels
+        # Use the latest period's income per client (not sum of all periods)
+        # to size debt realistically relative to current monthly income
+        latest_period = income_df.groupby("client_id")["period_date"].max()
+        latest_income = income_df.merge(
+            latest_period.rename("latest_period"),
+            on="client_id",
+        )
+        latest_income = latest_income[
+            latest_income["period_date"] == latest_income["latest_period"]
+        ]
         client_income_agg = (
-            income_df.groupby("client_id")["net_monthly_amount"]
+            latest_income.groupby("client_id")["net_monthly_amount"]
             .sum()
             .to_dict()
         )

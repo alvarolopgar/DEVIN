@@ -21,10 +21,14 @@ from credit_risk_engine.domain.models import (
     IncomeRecord,
 )
 from credit_risk_engine.services.credit_position_analyzer import (
+    CreditPositionAnalysisResult,
     CreditPositionAnalyzer,
 )
 from credit_risk_engine.services.default_predictor import DefaultPredictor
-from credit_risk_engine.services.income_analyzer import IncomeAnalyzer
+from credit_risk_engine.services.income_analyzer import (
+    IncomeAnalysisResult,
+    IncomeAnalyzer,
+)
 from credit_risk_engine.services.loss_calculator import LossCalculator
 from credit_risk_engine.services.scoring_engine import CreditScoringEngine
 
@@ -177,8 +181,8 @@ class ClientRiskAssessor(RiskAnalyzer):
     @staticmethod
     def _compile_risk_factors(
         dti_ratio: float,
-        income_result: object,
-        position_result: object,
+        income_result: IncomeAnalysisResult,
+        position_result: CreditPositionAnalysisResult,
         default_result_drivers: list[str],
     ) -> list[str]:
         """Compile a comprehensive list of risk factors for the client."""
