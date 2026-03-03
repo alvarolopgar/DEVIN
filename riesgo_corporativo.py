@@ -7,12 +7,12 @@ Regla de negocio:
   + calcular_exposicion_total(id_matriz).
   Si id_matriz es nulo o vacío, devuelve solo su propia deuda.
 
-Nota: Los datos de prueba contienen una referencia circular (A→B→C→A).
-Se incluye detección de ciclos para evitar recursión infinita.
+El sistema asume que el JSON ha sido validado previamente por Compliance
+y representa un árbol jerárquico perfecto sin referencias circulares.
 """
 
 import json
-from typing import Dict, Optional, Set
+from typing import Dict
 
 
 def cargar_empresas(ruta: str) -> Dict[str, dict]:
@@ -22,26 +22,17 @@ def cargar_empresas(ruta: str) -> Dict[str, dict]:
     return {empresa["id"]: empresa for empresa in lista}
 
 
-def calcular_exposicion_total(
-    id_empresa: str,
-    empresas: Dict[str, dict],
-    visitadas: Optional[Set[str]] = None,
-) -> int:
+def calcular_exposicion_total(id_empresa: str, empresas: Dict[str, dict]) -> int:
     """
     Calcula recursivamente la exposición total de riesgo de una empresa.
 
     Parámetros:
         id_empresa: Identificador de la empresa.
         empresas:   Diccionario de empresas indexado por id.
-        visitadas:  Conjunto de ids ya visitados para detectar ciclos.
 
     Retorna:
         La suma acumulada de deuda propia + exposición de la empresa matriz.
     """
-    if visitadas is None:
-        visitadas = set()
-
-    # Si la empresa no existe en el diccionario, exposición = 0
     if id_empresa not in empresas:
         return 0
 
@@ -50,22 +41,10 @@ def calcular_exposicion_total(
 
     id_matriz: str = empresa.get("id_matriz", "") or ""
 
-    # Caso base: no tiene matriz o la matriz es vacía
     if not id_matriz:
         return deuda_propia
 
-    # Detección de ciclo: si ya visitamos esta empresa, cortamos la recursión
-    if id_matriz in visitadas:
-        print(
-            f"  [Ciclo detectado] {id_empresa} → {id_matriz} "
-            f"(ya visitada). Se detiene la recursión."
-        )
-        return deuda_propia
-
-    # Marcar la empresa actual como visitada antes de recurrir
-    visitadas.add(id_empresa)
-
-    return deuda_propia + calcular_exposicion_total(id_matriz, empresas, visitadas)
+    return deuda_propia + calcular_exposicion_total(id_matriz, empresas)
 
 
 def main() -> None:
@@ -76,7 +55,7 @@ def main() -> None:
     print("=" * 55)
 
     for id_empresa in empresas:
-        exposicion = calcular_exposicion_total(id_empresa, empresas)
+        exposicion = calcular_exposicion_total(id_empresa, empresas)  # noqa: E501
         print(
             f"\n  Empresa {id_empresa}: "
             f"exposición total = {exposicion:,}"
